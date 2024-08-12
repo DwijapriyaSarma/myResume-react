@@ -1,0 +1,43 @@
+.Skills {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.skills-headline {
+  flex-shrink: 0;
+  margin-right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f4eeee;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #aca6a6;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50%; /* or any width */
+  margin: 0 auto;
+
+  
+}
+
+.skill-logo-link {
+  margin: 5px;
+  transition: transform 0.3s ease;
+}
+
+.skill-logo-link:hover {
+  transform: scale(1.1);
+}
+
+.skill-logo {
+  width: 40px;
+  height: 40px;
+}
+
+  
+  

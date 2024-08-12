@@ -1,0 +1,52 @@
+.projects {
+  padding: 20px;
+  
+  color: #faf6f6;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding: 10px; /* Add padding for better spacing */
+  border-radius: 5px; /* Rounded corners for better aesthetics */
+}
+
+.project-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  flex: 1;
+  padding-right: 20px; /* Adjust spacing as needed */
+  font-size: 0.8em; /* Smaller font size for the date */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.description {
+  flex: 3;
+}
+
+.project h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.project-link {
+ 
+  text-decoration: none;
+  color: #8bbfdf; 
+}
+
+.project-link:hover {
+  color: #eaedf0; /* Change color on hover */
+}
+
+
+
+.description-text {
+  font-family: 'Dancing Script', cursive; /* Handwriting style font */
+  font-size: 0.7em; /* Smaller text size for handwriting */
+  line-height: 1.5;
+}

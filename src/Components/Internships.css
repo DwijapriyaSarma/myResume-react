@@ -1,0 +1,69 @@
+.internships {
+  padding: 20px;
+  
+  color: #fffdfd;
+}
+
+.internship {
+  margin-bottom: 10px;
+  padding: 10px; /* Add padding for better spacing */
+  border-radius: 5px; /* Rounded corners for better aesthetics */
+}
+
+.internship-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  flex: 1;
+  padding-right: 20px; /* Adjust spacing as needed */
+}
+.date h6 {
+  font-size: 12px; /* Smaller font size for the date */
+  color: #888; /* Optional: Change the color to make it distinct */
+}
+.description {
+  flex: 3;
+}
+
+.internship h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.internship-link {
+  text-decoration: none;
+  color: #8bbfdf; /* Color of the internship title */
+}
+
+.internship-link:hover {
+  color: #dbdee2; /* Change color on hover */
+}
+
+
+
+.company {
+  font-style: italic;
+  color: #f5efef;
+}
+
+.description-text {
+  font-family: 'Dancing Script', cursive; /* Handwriting style font */
+  font-size: 0.7em; /* Smaller text size for handwriting */
+  line-height: 1.5;
+}
+
+.project-link {
+  display: block;
+  margin-top: 10px;
+  color: #eaebed;
+  text-decoration: none;
+  font-size: 1.2em; /* Adjust the size of the arrow if needed */
+}
+
+.project-link:hover {
+  color: #dadde0; /* Change color on hover if desired */
+}

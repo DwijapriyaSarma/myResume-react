@@ -1,0 +1,29 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.name-container {
+  display: flex;
+  align-items: flex-start; /* Align items to the start (left) */
+  margin-bottom: 10px; /* Space between name and description */
+}
+
+.name {
+  margin: 0;
+  font-size: 2em; /* Adjust font size as needed */
+}
+
+.description-container {
+ 
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.description-container p {
+  margin: 0;
+  font-size: 0.8em;
+  color: #ebe4e4;
+}
+

@@ -1,0 +1,98 @@
+.sidebar {
+  width: 180px;
+  background-color: #000; 
+  color: #fff; /* White text */
+  position: fixed; /* Fixes the sidebar to the left side */
+  z-index: 10;
+  height: 100%; /* Full height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  overflow-y: auto;
+  
+ 
+}
+
+.logo img {
+  width: 80px; /* Adjust as necessary */
+  height: 80px; /* Adjust as necessary */
+  margin-bottom: 20px;
+  border-radius: 50%; /* Makes the image circular, if desired */
+}
+
+
+  .nav-links {
+    width: 50%; /* Adjust this to control the width of the box */
+    background-color: #333; /* Background color of the box */
+    border: 2px solid #fff; /* Border color and thickness */
+    padding: 10px; /* Space inside the box */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  
+
+
+
+.nav-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.nav-links li {
+  margin: 15px 0;
+}
+
+.nav-links a {
+  color: #fff; /* White text */
+  text-decoration: none;
+  font-size: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f39c12; /* Highlight color on hover */
+}
+
+.social-links {
+  
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: auto; /* Pushes the social links to the bottom */
+  margin-bottom: 1000px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.social-links a img {
+  width: 15px;
+  height: 15px;
+  transition: opacity 0.3s ease;
+}
+
+.social-links a:hover img {
+  opacity: 0.7;
+}
+.nav-container {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.name-title p{
+  font-family: "Lucida Console",
+   "Courier New", monospace;
+
+}
+
+.name-title h6{
+  text-align: center
+}
+
